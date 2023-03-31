@@ -1,8 +1,9 @@
 <div class="tooltip">
-  <ng-content></ng-content>
+  <ng-content select="app-list"></ng-content>
   <div class="tooltip-content">
     <p class="sho">sho</p>
     <span class="wewe">wwweeee</span>
-    <p class="icon">tyt icon</p>
+    <ng-content></ng-content>
+    <ng-content select="app-icon"></ng-content>
   </div>
 </div>

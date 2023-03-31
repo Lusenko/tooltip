@@ -4,38 +4,10 @@
   flex-direction: column;
   margin: 20px auto 0 auto;
   width: 500px;
-  height: 400px;
   border: 2px solid black;
   border-radius: 8px;
 
   .tooltip-content {
     padding: 10px;
   }
-}
-
-.tooltip:after,
-.tooltip:before {
-  content: '';
-  border: 2px solid transparent;
-  position: absolute;
-  width: 0;
-  left: -25px;
-  top: 75px;
-}
-
-.tooltip:before {
-  border-right-color: black;
-  border-width: 35px;
-  top: 402px;
-  left: 211px;
-  transform: rotate(-90deg);
-}
-
-.tooltip:after {
-  border-right-color: white;
-  border-width: 34px;
-  margin-left: -13px;
-  left: 225px;
-  top: 400px;
-  transform: rotate(-90deg);
 }
